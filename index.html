@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pictures J</title>
+		<style>
+		body{
+			direction:rtl;
+		}
+		
+		.win{
+			width:550px;
+			border:1px solid black;
+			background-color:#ccffff;
+			margin:25px auto 25px auto;
+			text-align:center;
+			color:#000000;
+			box-shadow:10px 10px 50px;
+		}
+		.button{
+			display:inline-block;
+			background-color:#ffcccc;
+			border:1px solid #000000;
+			padding:5px;
+			margin:5px;
+			width:100px;
+			cursor:pointer;
+		}
+		#picture img{
+			width:100%;
+			height:400px;
+		}
+		#banner,#pictures{
+			padding: 25px 0 25px 0;
+		}
+		</style>
+		<script>
+		function Click1(){
+			alert("1");
+		}
+		function Click2(){
+			alert("2");
+		}
+		function Click3(){
+			alert("3");
+		}
+		</script>
+	</head>
+	
+	<body>
+		<div class="win" id="banner"><h1>Pictures J</h1></div>
+		<div class="win" id="buttons">
+			<div class="button" onclick="Click1()">ספורט</div>
+			<div class="button" onclick="Click2()">רכבים</div>
+			<div class="button" onclick="Click3()">צעצועים</div>
+		</div>
+		<div class="win" id="picture"><img src="" /></div>
+		<div class="win" id="pictures"></div>
+	</body>
+</html>
